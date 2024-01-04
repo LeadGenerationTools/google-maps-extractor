@@ -4,13 +4,21 @@ This chrome extension enables you to extract local business leads from Google Ma
 
 ## Important Links:
 
-[Install tutorial](https://www.gmapsemailextractor.com/)
-[Demo Video](https://www.youtube.com/watch?v=pT8y7gjMQqs)
+- Install tutorial link: [Install tutorial](https://www.gmapsemailextractor.com/)
+- Demo Video link: [Demo Video](https://www.youtube.com/watch?v=pT8y7gjMQqs)
 
 ## Screenshots
 
+### Demo Results Data
+
 ![Demo Data Results](./screenshot/demo_data.png)
+
+### Scraper UI
+
 ![Scraper UI](./screenshot/ui.png)
+
+### Popup UI
+
 ![Popup UI](./screenshot/popup.png)
 
 ## Features:
