@@ -1,0 +1,269 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "sofiapro-medium", PingFangSC, sans-serif;
+    width: 800px;
+    padding: 0;
+}
+
+#header {
+    height: 80px;
+    background: #ffffff;
+    border-bottom: 1px solid rgba(34, 90, 89, 0.2);
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#maincontent {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.backendnav {
+    flex: 0 0 150px;
+    padding: 40px 10px;
+    color: #ffffff;
+    order: -1;
+    border-right: 1px solid #cccccc;
+}
+
+.backendnav a {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+#footer {
+    background-color: #3a3f46;
+    color: white;
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#footer .myrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#footer .myrow .mycol {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#footer h5 {
+    font-size: 14px;
+    line-height: 28px;
+    font-family: "sofiapro-bold", PingFangSC, sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 0 1px;
+    transition: color ease 0.3s;
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: $underlineHeight;
+        left: 0;
+        bottom: 0;
+        background-color: $underlineColor;
+        transition: all ease 0.3s;
+    }
+    &:hover {
+        &::after {
+            height: 100%;
+        }
+    }
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header a {
+    color: #000000;
+}
+
+#footer a {
+    color: #cccccc;
+    font-family: "sofiapro-medium", PingFangSC, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+.logo {
+    height: 80px;
+}
+
+#content {
+    padding: 10px;
+    padding-left: 30px;
+    flex: 1;
+}
+
+.backendnav ul {
+    padding-inline-start: 0;
+}
+
+.backendnav li {
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+}
+
+#header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item-link {
+    font-family: "sofiapro-semibold", PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 70px;
+    cursor: pointer;
+    color: rgba(18, 18, 18, 0.75);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    transform: scale(0.75);
+}
+
+.menu-right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.filter {
+    border: 1px solid #cccccc;
+    padding: 5px 10px;
+}
+
+.filtercondition * {
+    /*display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;*/
+    margin: 5px 10px;
+}
+
+#headerlogin {
+    display: flex;
+    flex-direction: row;
+}
+
+#headerlogin a {
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #000;
+    font-family: "sofiapro-semibold", PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    display: block;
+    margin-left: 35px;
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.coverlogo {
+    height: 200px;
+}
+
+#headerlogin1 .login-btn {
+    background: #fe2c55;
+    color: #fff;
+    padding: 12px 50px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid #fe2c55;
+    transition: 0.3s background ease-in-out;
+    -webkit-transition: 0.3s background ease-in-out;
+    -moz-transition: 0.3s background ease-in-out;
+    -ms-transition: 0.3s background ease-in-out;
+    -o-transition: 0.3s background ease-in-out;
+    background-color: #ff0021;
+    -webkit-box-shadow: 0px 25px 42px 0px rgba(99, 218, 255, 0.35);
+    box-shadow: 0px 25px 42px 0px rgba(99, 218, 255, 0.35);
+}
+
+#headerlogin1 .site-action .login-btn {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.tablelink {
+    text-decoration: underline;
+}
+
+#loginbtn,
+#upgradebtn {
+    padding: 0 30px;
+    border-radius: 10px;
+    line-height: 30px;
+    background: #d32d27;
+    cursor: pointer;
+    font-size: 12px;
+    border: 0;
+    color: #fff;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .1), 0 2px 4px 0 rgba(0, 0, 0, .1);
+    text-transform: uppercase;
+    height: 30px;
+    font-weight: 600;
+}
+
+#upgradebtn {
+    background: green;
+}
+
+.funcitem {
+    font: bold 16px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 5px 50px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    width: 100px;
+    margin: 10px;
+}

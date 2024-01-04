@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>popup</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="lib/fetch.umd.js"></script>
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="lib/axios.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="auth/config.js"></script>
+    <script src="auth/pay/rolecheck.js"></script>
+</head>
+
+<body>
+    <div id="maincontent" style="width: 100%">
+        <div id="content">
+            <div style="
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            align-items:flex-start;
+            text-align: center;
+            justify-content: space-between;
+          ">
+                <h2 style="text-align: left;">Maps Scraper</h2>
+                <button id="loginbtn" style="margin: 5px;"></button>
+            </div>
+            <div style="
+            padding: 5px 0;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            justify-content:flex-end;
+            gap: 10px;
+            border-bottom: 1px solid #cccccc;
+            margin-bottom: 10px;
+          ">
+                <div><span id="accountinfo" style="font-weight: bold; font-size: 16px;"></span></div>
+                <button id="upgradebtn">Upgrade</button>
+            </div>
+            <div style="
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            gap: 20px;
+            row-gap: 20px;
+            
+            height: 150px;
+          ">
+                <div style="display: flex; align-items: flex-start; justify-content: space-evenly; flex-direction: column; gap: 20px;">
+                    <input type="text" id="profileid" value="coffee shop near new york" style="height: 20px; width: 300px; border-radius: 0.375rem; border: 1px #ccc solid; padding: 10px;" />
+                    <button id="addprofilebtn" style="width: 200px; height: 40px; background-color:darkgreen; color: #fff;">Search Google Maps</button>
+                </div>
+            </div>
+
+            <hr />
+            <div>
+                <a href="https://forms.gle/p5n1rDnwmrBWMQ3X6" target="_blank">
+                    <h3>Any Suggestions? Feel free to contact us!</h3>
+                </a>
+            </div>
+            <div id="managesubscription">
+                <button id="customerportal">Manage My Subscription</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/popup.js"></script>
+
+</html>
