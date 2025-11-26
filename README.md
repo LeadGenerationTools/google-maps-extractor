@@ -230,7 +230,7 @@ When using our **Google Maps extractor**:
 
 - 📧 **Email Support:** [Contact Form](https://forms.gle/p5n1rDnwmrBWMQ3X6)
 - 🎥 **Video Tutorials:** [YouTube Channel](https://www.youtube.com/watch?v=pT8y7gjMQqs)
-- 🐛 **Report Issues:** [GitHub Issues](https://github.com/yourusername/google-maps-scraper/issues)
+- 🐛 **Report Issues:** [GitHub Issues](https://github.com/LeadGenerationTools/google-maps-extractor/issues)
 - **Install Docs:** [Install Docs](https://link.zhihu.com/?target=https%3A%2F%2Fwww.gmapsemailextractor.com%2Faddtochrome)
 
 ---
@@ -304,7 +304,7 @@ Looking for similar tools? Our **Google Maps scraper** is also known as:
 
 Ready to supercharge your lead generation with the best **Google Maps scraper** available?
 
-### 🎯 [Install Google Maps Scraper Now - It's Free!](https://www.gmapsemailextractor.com/addtochrome)
+### 🎯 [Install Google Maps Scraper Now - It's Free!](https://www.gmapsscraper.net/)
 
 Join thousands of businesses using our **Google Maps extractor** to:
 
