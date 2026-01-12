@@ -11,6 +11,11 @@
 
 ---
 
+## Customers
+- **Bank Statement Converter:** [Convert Bank PDF Statements to Excel](https://www.bankpdfstatementconverter.com/convert)
+
+---
+
 ## Why Choose Our Google Maps Scraper Chrome Extension?
 
 Our **Google Maps scraper** is the leading solution for extracting business data from Google Maps. Whether you're looking for a **Google Maps extractor**, **Google Maps data scraper**, or **Google Maps email extractor**, this Chrome extension delivers:
